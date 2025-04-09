@@ -5,6 +5,8 @@ import {
   createRoutesFromElements,
   Route,
 } from "react-router-dom";
+import Layout from "./layout";
+import Home from "./components/shared/Home";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
